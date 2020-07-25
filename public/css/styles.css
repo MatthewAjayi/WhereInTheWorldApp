@@ -1,0 +1,88 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	background-color: #f8f9fa !important;
+}
+
+.bg-light {
+	background-color: white !important;
+}
+
+.searchBar {
+	margin-top: 45px;
+	width: 600px;
+	margin-left: 48px;
+	margin-bottom: 45px;
+}
+
+.searchB {
+	margin-left: 40px;
+}
+
+.sbar {
+	width: 500px;
+}
+.container-fluid {
+	padding: 0;
+}
+
+.journalEntries {
+	padding-left: 140px;
+	padding-top: 20px;
+	padding-right: 140px;
+	text-align: left;
+}
+
+.navbar {
+	padding: 20px 140px 20px 140px;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
+.countryCards {
+	padding-bottom: 60px;
+}
+
+.input-icons i {
+	position: absolute;
+}
+
+.input-icons {
+	width: 600px;
+	margin-bottom: 10px;
+}
+
+.icon {
+	padding-left: 60px;
+	padding-top: 6px;
+	min-width: 40px;
+}
+
+.input-field {
+	width: 500px;
+	margin-left: 45px;
+	padding-right: 40px;
+	text-align: center;
+}
+
+.countryData {
+	padding-left: 40px;
+}
+
+.allFilters {
+	width: 200px;
+	position: relative;
+}
+
+.btn-light {
+	background-color: white;
+}

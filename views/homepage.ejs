@@ -1,0 +1,39 @@
+<%- include("header") -%>
+
+
+<div class="searchBar">
+    <form action="/" class="searchBar" method="POST">
+        <div class="input-icons">
+            <i class="fas fa-search icon"></i>
+            <input type="text" class="input-field" name="search" id="" placeholder="Search Here">
+        </div>       
+    </form>
+</div>
+
+
+
+<div class="container-fluid journalEntries">
+    <div class="container-fluid">
+        <div class="row">
+        <% for(let i = 0; i < country.length; i++) { %>
+          <div class="col-sm-3 countryCards">
+            <div class="card">
+              <img class="card-img-top img-fluid" src=<%= country[i].flag %> alt="Card image cap">
+              <div class="card-block">
+                <div class="container-fluid countryData">
+                    <h4 class="card-title"><%= country[i].name %></h4>
+                    <p class="card-text">Population: <%= country[i].population %></p>
+                    <p class="card-text">Region: <%= country[i].region %></p>
+                    <p class="card-text">Capital: <%= country[i].capital %></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% } %>
+    </div>
+        
+</div>
+
+        
+        
+<%- include("footer") -%>
